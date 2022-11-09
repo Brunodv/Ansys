@@ -284,7 +284,7 @@ const Butons = ()=>{
         <Video/>
         </div>
         </div>
-        <div className="tab-pane fade show active" id="web-tab-pane" role="tabpanel" aria-labelledby="web-tab" tabIndex="0">
+        <div className="tab-pane fade" id="web-tab-pane" role="tabpanel" aria-labelledby="web-tab" tabIndex="0">
         <div className="card mb-3">
          <img src={euler} className="card-img-top" alt="..."/>
         <div className="card-body">
