@@ -173,8 +173,7 @@ const Butons = ()=>{
          <img src={tuberia} className="card-img-top" alt="..."/>
         <div className="card-body">
             <h5 className="card-title">Cálculo de temperatura con elementos finitos y Fourier</h5>
-            <p className="card-text">Un análisis térmico con una elegante solución no tan simple, imagino que podría ser utilizado
-            en tuberías metálicas que transporten gases calientes, contiene una validación adicional en MATLAB</p>
+            <p className="card-text">Un análisis térmico con una elegante solución no tan simple, contiene una validación adicional en MATLAB</p>
             <p className="card-text"><small className="text-muted">Como amo a Fourier</small></p>
             <h3 className="card-title">Detalles de la Simulación</h3>
             <p className="card-text">En la siguiente imagen se muestra el árbol de acciones de Ansys como un resumen de lo que se realizó</p>
