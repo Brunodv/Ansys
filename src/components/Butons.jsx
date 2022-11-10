@@ -274,8 +274,8 @@ const Butons = ()=>{
             <p className="card-text">si bien con un buen modelo, cálculos acertados con valores semejantes de FL y FD 
             son suficientes para pasar a la parte estructural del alerón y cumplir con requerimientos, sí que podemos aspirar a más detalles con matemática avanzada
             como las ecuaciones de Von Kármán para hallar el punto de desprendimiento de la capa limite analíticamente,
-            contrastando con Ansys y DesignFoil. Llegado a ese punto solo faltaría tocar Navier Stokes, uno de los 7 problemas del milenio, 
-            para conocer los detalles de mi trabajo, puede ponerse en contacto conmigo directamente a mi WhatsApp en el +51977631700</p> 
+            contrastando con Ansys y DesignFoil, publicaré esto más tade.
+            Para conocer los detalles de mi trabajo, puede ponerse en contacto conmigo directamente a mi WhatsApp en el +51977631700</p> 
         </div>
         <br />
         <br />
