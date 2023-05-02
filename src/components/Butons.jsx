@@ -277,7 +277,7 @@ const Butons = ()=>{
         <div className="tab-pane fade" id="cv-tab-pane" role="tabpanel" aria-labelledby="cv-tab" tabIndex="0">        
         <div className="card mb-3">
         <div className="card-body">    
-        <a href="https://drive.google.com/file/d/1HMd9-v6yl9Yt3-jHfsiIESbENGiYex83/view?usp=share_link"
+        <a href="https://drive.google.com/file/d/1DEy5QdhG059wOWUjSMbgvibngxxiL7VW/view?usp=share_link"
         class="btn btn-success">Clic aquí para ver mis documentos</a>
         </div>
         </div>
