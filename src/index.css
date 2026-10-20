@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+	--font-sans: Satoshi, sans-serif;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url('./assets/fonts/Satoshi-Variable.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 300 900;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url('./assets/fonts/Satoshi-VariableItalic.ttf') format('truetype');
+	font-style: italic;
+	font-weight: 300 900;
+	font-display: swap;
+}
+
+:root {
+	font-family: Satoshi, sans-serif;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	color: #1e293b;
+	background: #f1f5f9;
+}
+
+body {
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0;
+	background-color: #f1f5f9;
+	background-image:
+		linear-gradient(rgba(100, 116, 139, 0.055) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(100, 116, 139, 0.055) 1px, transparent 1px);
+	background-size: 32px 32px;
+}
+
+button:not(:disabled),
+a[href] {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: not-allowed;
+}
+
+.study-document p {
+	color: #475569;
+	font-size: 1rem;
+	line-height: 1.7;
+}
+
+.study-document figure {
+	overflow: hidden;
+	border-radius: 0.25rem;
+}
+
+.study-document figcaption {
+	color: #64748b;
+	font-size: 0.875rem;
+	line-height: 1.5;
+}
+
+.study-document .katex-display {
+	max-width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
